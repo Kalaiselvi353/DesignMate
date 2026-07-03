@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Mate Presentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="jewelCanvas" aria-hidden="true"></canvas>
+
+    <div class="progress-shell" aria-hidden="true"><span id="progressBar"></span></div>
+
+    <nav class="deck-nav" aria-label="Presentation navigation">
+        <a href="#slide-1" class="nav-dot active" aria-label="Slide 1"></a>
+        <a href="#slide-2" class="nav-dot" aria-label="Slide 2"></a>
+        <a href="#slide-3" class="nav-dot" aria-label="Slide 3"></a>
+        <a href="#slide-4" class="nav-dot" aria-label="Slide 4"></a>
+        <a href="#slide-5" class="nav-dot" aria-label="Slide 5"></a>
+    </nav>
+
+    <main class="deck" id="deck" aria-label="Design Mate horizontal presentation">
+        <section class="slide hero-slide" id="slide-1" data-slide="01">
+            <div class="slide-copy hero-copy reveal">
+                <p class="eyebrow">AI Jewelry Design Platform</p>
+                <h1>Design Mate</h1>
+                <p class="subtitle">AI-Powered Jewelry Design Platform</p>
+                <p class="lead">Design Mate is an AI-powered creative platform that transforms ideas, sketches, and reference images into high-quality jewelry concepts. It enables designers to generate, refine, visualize, and present innovative designs faster, accelerating creativity from imagination to production-ready outcomes.</p>
+                <div class="talk-track" aria-label="Presentation cues">
+                    <span><b>01</b> Idea</span>
+                    <span><b>02</b> AI generation</span>
+                    <span><b>03</b> Review-ready output</span>
+                </div>
+            </div>
+            <div class="hero-gallery reveal" aria-label="Design Mate visual samples">
+                <img class="hero-image main-shot" src="Image_samples/image (6).jpg" alt="Design Mate sign-in and platform hero screen">
+                <img class="hero-image floating-shot" src="Image_samples/image (8).jpg" alt="Generated jewelry design in Design Mate studio">
+                <div class="orbit-system" aria-hidden="true">
+                    <div class="ring-orbit orbit-one"><span></span></div>
+                    <div class="ring-orbit orbit-two"><span></span></div>
+                    <div class="gem-core"><i></i><i></i><i></i><i></i></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide workflow-slide" id="slide-2" data-slide="02">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Creative Pipeline</p>
+                <h2>AI Design Workflows</h2>
+            </div>
+            <div class="workflow-layout">
+                <div class="workflow-grid reveal">
+                    <article class="feature-panel"><span class="panel-icon">✦</span><div><h3>Text to Image</h3><p>Generate completely new jewelry concepts from natural language descriptions, turning creative ideas into high-quality visual designs within seconds.</p></div></article>
+                    <article class="feature-panel"><span class="panel-icon">◈</span><div><h3>Image to Image</h3><p>Upload an existing jewelry design and create multiple variations while preserving its style, proportions, and overall design language.</p></div></article>
+                    <article class="feature-panel"><span class="panel-icon">＋</span><div><h3>Image + Text Editing</h3><p>Combine a reference image with text instructions to modify metals, gemstones, shapes, detailing, or finishes while maintaining the original design intent.</p></div></article>
+                </div>
+                <div class="image-stack reveal" aria-label="Workflow screenshots">
+                    <img class="sample-card large" src="Image_samples/image (7).jpg" alt="Text to image prompt workflow in Design Mate">
+                    <img class="sample-card small top" src="Image_samples/image (9).jpg" alt="Image to image jewelry variation workflow">
+                    <img class="sample-card small bottom" src="Image_samples/image (10).jpg" alt="Image and text jewelry editing workflow">
+                </div>
+            </div>
+            <div class="flow-strip reveal" aria-label="Workflow: Imagine, Generate, Refine, Review">
+                <span>Imagine</span><b></b><span>Generate</span><b></b><span>Refine</span><b></b><span>Review</span>
+            </div>
+        </section>
+
+        <section class="slide features-slide" id="slide-3" data-slide="03">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Intelligent Creation</p>
+                <h2>Intelligent Design Features</h2>
+            </div>
+            <div class="features-layout">
+                <div class="feature-cloud reveal">
+                    <article><span>✍</span><h3>Jewelry to Sketch</h3><p>Convert finished jewelry designs into clean concept sketches for ideation and documentation.</p></article>
+                    <article><span>💍</span><h3>Hand Sketch to Jewelry</h3><p>Transform hand-drawn sketches into realistic, high-quality jewelry renders.</p></article>
+                    <article><span>◎</span><h3>MultiView</h3><p>Generate front, back, side, and top views for complete product visualization.</p></article>
+                    <article><span>◆</span><h3>Matching Set</h3><p>Create coordinated rings, earrings, pendants, and necklaces based on a single design style.</p></article>
+                    <article><span>👁</span><h3>AI Try-On</h3><p>Visualize jewelry on a person to evaluate appearance, scale, and presentation.</p></article>
+                    <article><span>⬡</span><h3>3D Generation &amp; Viewer</h3><p>Generate interactive 3D models for detailed inspection and downstream manufacturing workflows.</p></article>
+                </div>
+                <div class="feature-showcase reveal" aria-label="Feature screenshots">
+                    <img src="Image_samples/image (5).jpg" alt="Sketch conversion feature in Design Mate">
+                    <img src="Image_samples/image (3).jpg" alt="Multi-view generation feature in Design Mate">
+                    <img src="Image_samples/image (2).jpg" alt="AI try-on feature in Design Mate">
+                </div>
+            </div>
+        </section>
+
+        <section class="slide value-slide" id="slide-4" data-slide="04">
+            <div class="value-layout">
+                <div class="section-heading reveal"><p class="eyebrow">Platform Value</p><h2>Business Value</h2></div>
+                <div class="value-list reveal">
+                    <p>Accelerates concept exploration and design ideation</p>
+                    <p>Generates multiple design variations within minutes</p>
+                    <p>Maintains collection consistency using reference-based AI</p>
+                    <p>Produces presentation-ready visuals for stakeholders</p>
+                    <p>Improves collaboration across design teams</p>
+                    <p>Supports 3D-ready workflows for manufacturing and review</p>
+                    <p>Centralizes creative history, iterations, and design assets</p>
+                </div>
+                <blockquote class="key-message reveal">One intelligent platform supporting the complete jewelry design journey-from concept creation to visualization and 3D.</blockquote>
+            </div>
+            <div class="presentation-preview reveal" aria-label="Application screenshots and business value visuals">
+                <img src="Image_samples/image (11).jpg" alt="Design Mate gallery and creative history screen">
+                <img src="Image_samples/image (4).jpg" alt="Matching jewelry set generation in Design Mate">
+                <div class="metric-row" aria-label="Presentation highlights">
+                    <span><b>Minutes</b> to concepts</span>
+                    <span><b>Sets</b> from one style</span>
+                    <span><b>3D</b> review ready</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide closing-slide" id="slide-5" data-slide="05">
+            <div class="thank-you-panel reveal">
+                <p class="eyebrow">Design Mate</p>
+                <h2>Thank You</h2>
+                <p class="lead">From imagination to exceptional jewelry designs-powered by AI.</p>
+                <div class="thank-you-accent" aria-hidden="true">
+                    <span>✨</span>
+                    <span>💍</span>
+                    <span>◆</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button class="slide-arrow previous" type="button" aria-label="Move to previous slide"><span></span></button>
+    <button class="slide-arrow next" type="button" aria-label="Move to next slide"><span></span></button>
+
+    <script src="script.js"></script>
+</body>
+</html><!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Mate Presentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="jewelCanvas" aria-hidden="true"></canvas>
+
+    <nav class="deck-nav" aria-label="Presentation navigation">
+        <a href="#slide-1" class="nav-dot active" aria-label="Slide 1"></a>
+        <a href="#slide-2" class="nav-dot" aria-label="Slide 2"></a>
+        <a href="#slide-3" class="nav-dot" aria-label="Slide 3"></a>
+        <a href="#slide-4" class="nav-dot" aria-label="Slide 4"></a>
+        <a href="#slide-5" class="nav-dot" aria-label="Slide 5"></a>
+    </nav>
+
+    <main class="deck" id="deck">
+        <section class="slide hero-slide" id="slide-1" data-slide="01">
+            <div class="slide-copy hero-copy reveal">
+                <p class="eyebrow">AI Jewelry Design Platform</p>
+                <h1>Design Mate</h1>
+                <p class="subtitle">AI-Powered Jewelry Design Platform</p>
+                <p class="lead">Design Mate is an AI-powered creative platform that transforms ideas, sketches, and reference images into high-quality jewelry concepts. It enables designers to generate, refine, visualize, and present innovative designs faster, accelerating creativity from imagination to production-ready outcomes.</p>
+            </div>
+            <div class="visual-stage reveal" aria-hidden="true">
+                <div class="orbit-system">
+                    <div class="ring-orbit orbit-one"><span></span></div>
+                    <div class="ring-orbit orbit-two"><span></span></div>
+                    <div class="gem-core">
+                        <i></i><i></i><i></i><i></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide workflow-slide" id="slide-2" data-slide="02">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Creative Pipeline</p>
+                <h2>AI Design Workflows</h2>
+            </div>
+            <div class="workflow-grid reveal">
+                <article class="feature-panel">
+                    <span class="panel-icon">T</span>
+                    <h3>Text to Image</h3>
+                    <p>Generate completely new jewelry concepts from natural language descriptions, turning creative ideas into high-quality visual designs within seconds.</p>
+                </article>
+                <article class="feature-panel">
+                    <span class="panel-icon">I</span>
+                    <h3>Image to Image</h3>
+                    <p>Upload an existing jewelry design and create multiple variations while preserving its style, proportions, and overall design language.</p>
+                </article>
+                <article class="feature-panel">
+                    <span class="panel-icon">+</span>
+                    <h3>Image + Text Editing</h3>
+                    <p>Combine a reference image with text instructions to modify metals, gemstones, shapes, detailing, or finishes while maintaining the original design intent.</p>
+                </article>
+            </div>
+            <div class="flow-strip reveal" aria-label="Workflow: Imagine, Generate, Refine, Review">
+                <span>Imagine</span>
+                <b></b>
+                <span>Generate</span>
+                <b></b>
+                <span>Refine</span>
+                <b></b>
+                <span>Review</span>
+            </div>
+            <div class="screenshot-slot reveal">
+                <div class="mock-window">
+                    <div class="window-bar"><span></span><span></span><span></span></div>
+                    <div class="mock-layout">
+                        <div class="mock-sidebar"></div>
+                        <div class="mock-preview"><div class="mini-ring"></div></div>
+                        <div class="mock-controls"><i></i><i></i><i></i><i></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide features-slide" id="slide-3" data-slide="03">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Intelligent Creation</p>
+                <h2>Intelligent Design Features</h2>
+            </div>
+            <div class="feature-cloud reveal">
+                <article>
+                    <span>01</span>
+                    <h3>Jewelry to Sketch</h3>
+                    <p>Convert finished jewelry designs into clean concept sketches for ideation and documentation.</p>
+                </article>
+                <article>
+                    <span>02</span>
+                    <h3>Hand Sketch to Jewelry</h3>
+                    <p>Transform hand-drawn sketches into realistic, high-quality jewelry renders.</p>
+                </article>
+                <article>
+                    <span>03</span>
+                    <h3>MultiView</h3>
+                    <p>Generate front, back, side, and top views for complete product visualization.</p>
+                </article>
+                <article>
+                    <span>04</span>
+                    <h3>Matching Set</h3>
+                    <p>Create coordinated rings, earrings, pendants, and necklaces based on a single design style.</p>
+                </article>
+                <article>
+                    <span>05</span>
+                    <h3>AI Try-On</h3>
+                    <p>Visualize jewelry on a person to evaluate appearance, scale, and presentation.</p>
+                </article>
+                <article>
+                    <span>06</span>
+                    <h3>3D Generation &amp; Viewer</h3>
+                    <p>Generate interactive 3D models for detailed inspection and downstream manufacturing workflows.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="slide value-slide" id="slide-4" data-slide="04">
+            <div class="value-layout">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Platform Value</p>
+                    <h2>Business Value</h2>
+                </div>
+                <div class="value-list reveal">
+                    <p>Accelerates concept exploration and design ideation</p>
+                    <p>Generates multiple design variations within minutes</p>
+                    <p>Maintains collection consistency using reference-based AI</p>
+                    <p>Produces presentation-ready visuals for stakeholders</p>
+                    <p>Improves collaboration across design teams</p>
+                    <p>Supports 3D-ready workflows for manufacturing and review</p>
+                    <p>Centralizes creative history, iterations, and design assets</p>
+                </div>
+                <blockquote class="key-message reveal">One intelligent platform supporting the complete jewelry design journey-from concept creation to visualization and 3D.</blockquote>
+            </div>
+            <div class="presentation-preview reveal" aria-label="Application screenshot placeholder">
+                <div class="preview-topline"></div>
+                <div class="preview-grid">
+                    <span></span><span></span><span></span><span></span>
+                </div>
+                <div class="preview-ring"></div>
+            </div>
+        </section>
+
+        <section class="slide closing-slide" id="slide-5" data-slide="05">
+            <div class="slide-copy reveal">
+                <p class="eyebrow">Why Design Mate</p>
+                <h2>Why Design Mate</h2>
+                <p class="lead">Design Mate combines Generative AI, intelligent editing, visualization, and 3D capabilities into a unified platform for modern jewelry design. It empowers designers to explore more ideas, iterate faster, and create high-quality concepts while maintaining full creative control throughout the design process.</p>
+            </div>
+            <div class="outcomes reveal">
+                <span>Accelerated innovation</span>
+                <span>Reduced design turnaround time</span>
+                <span>Enhanced creativity</span>
+                <span>Professional presentations</span>
+                <span>Smarter AI-assisted design workflow</span>
+            </div>
+            <p class="closing-line reveal">From imagination to exceptional jewelry designs-powered by AI.</p>
+        </section>
+    </main>
+
+    <button class="scroll-cue" type="button" aria-label="Move to next slide">
+        <span></span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+-->
